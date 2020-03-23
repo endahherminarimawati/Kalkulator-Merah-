@@ -15,7 +15,12 @@ public:
    };
    
     void perkurangan();
-   
+      cout<<"PENGURANGAN"<<endl;
+      cout<<"-----------"<<endl;
+      cout<<" Masukkan x :";cin>>x;
+      cout<<" Masukkan y :";cin>>y;
+      
+      cout<<" Hasilnya "<<x-y;
    void pembagian(){
    		cout<<"PEMBAGIAN"<<endl;
    		cout<<"=========="<<endl;
