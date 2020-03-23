@@ -15,6 +15,7 @@ public:
    };
    
     void perkurangan();
+      
       cout<<"PENGURANGAN"<<endl;
       cout<<"-----------"<<endl;
       cout<<" Masukkan x :";cin>>x;
