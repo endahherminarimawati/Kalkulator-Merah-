@@ -4,15 +4,27 @@ using namespace std;
 class Kalkulator
 {
 public:
+      int x, y;
+   
    void pertambahan(){
-       int x, y;
        
        cout<< " X : "; cin >>x;
        cout<< " Y : "; cin >>y;
        
        cout << x + y <<endl;
    };
+   
     void perkurangan();
+   
+   void pembagian(){
+   		cout<<"PEMBAGIAN"<<endl;
+   		cout<<"=========="<<endl;
+   		cout<<" X : "; cin>>x;
+   		cout<<" Y : "; cin>>y;
+   		
+   		cout<<" Hasil : "<<x/y;
+   };
+      
 };
 
 main()
