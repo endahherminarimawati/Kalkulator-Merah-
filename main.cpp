@@ -4,7 +4,15 @@ using namespace std;
 class Kalkulator
 {
 public:
-    // tulis fungsinya/methodnya disini ya...
+   void pertambahan(){
+       int x, y;
+       
+       cout<< " X : "; cin >>x;
+       cout<< " Y : "; cin >>y;
+       
+       cout << x + y <<endl;
+   };
+    void perkurangan();
 };
 
 main()
