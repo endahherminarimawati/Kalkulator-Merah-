@@ -28,7 +28,8 @@ public:
 
         cout << " Hasilnya " << x - y;
     }
-
+    
+   //pembagian pada bahasa c++
     void pembagian()
     {
         cout << "PEMBAGIAN" << endl;
